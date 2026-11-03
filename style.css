@@ -839,6 +839,34 @@ a {
     font-weight: 700;
 }
 
+.partnership {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("./img/Rectangle 1992.png") center / cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.partnership h2 {
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+.partnership p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.partnership-btn {
+    display: inline-block;
+    padding: 20px 65px;
+    background: linear-gradient(90deg, #69bee8, #0879b5);
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
 @media (max-width: 500px) {
     .container {
         padding: 0 50px;
@@ -1358,5 +1386,22 @@ a {
         min-height: 70px;
         padding: 10px;
         font-size: 12px;
+    }
+    .partnership {
+        padding: 80px 0;
+    }
+
+    .partnership h2 {
+        font-size: 22px;
+    }
+
+    .partnership p {
+        font-size: 14px;
+    }
+
+    .partnership-btn {
+        width: 100%;
+        padding: 16px 10px;
+        font-size: 13px;
     }
 }

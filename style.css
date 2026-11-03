@@ -146,6 +146,78 @@ a {
     display: none;
 }
 
+.audience {
+    padding-bottom: 100px;
+}
+
+.audience h2 {
+    font-size: 36px;
+    color: #1178b2;
+    margin-bottom: 50px;
+}
+
+.audience-blocks {
+    display: flex;
+    gap: 20px;
+}
+
+.audience-block {
+    width: 33.33%;
+    padding: 50px 25px 35px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+}
+
+.audience-block h1 {
+    color: #8bbddb;
+    font-size: 72px;
+    margin-bottom: 25px;
+}
+
+.audience-block h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.audience-block p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.consult {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("./img/startup 3.png") center / cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.consult h2 {
+    font-size: 30px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.consult h2 span {
+    background-color: #07AF91;
+    padding: 5px 10px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.consult p {
+    font-size: 18px;
+    margin: 20px 0 30px;
+}
+
+.consult-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #69bee8, #0879b5);
+    padding: 20px 35px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
 @media (max-width: 500px) {
     .container {
         padding: 0 50px;
@@ -270,5 +342,55 @@ a {
     .services-btn {
         font-size: 13px;
         margin-top: 25px;
+    }
+    .audience {
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    .audience h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .audience-blocks {
+        flex-direction: column;
+    }
+
+    .audience-block {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .audience-block h1 {
+        font-size: 55px;
+        margin-bottom: 15px;
+    }
+
+    .audience-block h3 {
+        font-size: 16px;
+    }
+
+    .audience-block p {
+        font-size: 14px;
+    }
+    .consult {
+        padding: 90px 0;
+    }
+
+    .consult h2 {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+
+    .consult p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .consult-btn {
+        width: 100%;
+        padding: 16px 10px;
+        font-size: 13px;
     }
 }

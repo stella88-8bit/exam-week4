@@ -742,6 +742,19 @@ a {
     font-size: 14px;
 }
 
+.gallery {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+
+.gallery img {
+    width: 19%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 @media (max-width: 500px) {
     .container {
         padding: 0 50px;
@@ -1206,5 +1219,14 @@ a {
     .founder-img {
         max-width: 250px;
         align-self: center;
+    }
+    .gallery {
+        overflow-x: auto;
+        padding-bottom: 70px;
+    }
+
+    .gallery img {
+        width: 150px;
+        flex-shrink: 0;
     }
 }

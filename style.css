@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header {
+    color: white;
+    width: auto;
+    height: 800px;
+    padding-bottom: 100px;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/uae-4-2048x1367\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-btn {
+    padding: 15px 30px;
+    background-color: #07AF91;
+    border: none;
+    border-radius: 10px;
+}
+
+.hdr-bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hdr-btn {
+    padding: 20px 35px;
+    background-color: #07AF91;
+    border-radius: 10px;
+    width: auto;
+}

@@ -347,6 +347,141 @@ a {
     font-size: 16px;
 }
 
+.accelerator {
+    padding-bottom: 100px;
+}
+
+.accelerator h2 {
+    color: #1178b2;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.accelerator-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.accelerator-blocks {
+    display: flex;
+    gap: 20px;
+}
+
+.accelerator-block {
+    width: 33.33%;
+    padding: 50px 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+}
+
+.accelerator-block h1,
+.accelerator-block i {
+    color: #70b9d2;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.accelerator-block p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.accelerator-video {
+    height: 600px;
+    margin-top: 20px;
+    background-color: #0b0b0b;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.accelerator-play {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #4c8bed;
+    font-size: 32px;
+}
+
+.program {
+    padding-bottom: 100px;
+}
+
+.program h2 {
+    color: #1178b2;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.program-block {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+
+.program-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 22px 35px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.program-title span {
+    color: #2b7cc3;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.program-title i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #2b7cc3;
+    color: white;
+    font-size: 14px;
+}
+
+.program-text p {
+    border-top: 1px solid #eee;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 20px 35px;
+}
+
+.program-text p:last-child {
+    color: #2b7cc3;
+}
+
+.program-btn {
+    display: inline-block;
+    padding: 20px 35px;
+    background: linear-gradient(90deg, #69bee8, #0879b5);
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
 @media (max-width: 500px) {
     .container {
         padding: 0 50px;
@@ -354,7 +489,7 @@ a {
 
     .header {
         min-height: 720px;
-        padding-bottom: 70px;
+        padding-bottom: 50px;
     }
 
     .header header .container {
@@ -577,5 +712,80 @@ a {
     .markets-card h3 span,
     .markets-card p {
         font-size: 11px;
+    }
+    .accelerator {
+        text-align: center;
+        padding-bottom: 70px;
+    }
+
+    .accelerator h2 {
+        font-size: 24px;
+    }
+
+    .accelerator-text {
+        font-size: 14px;
+    }
+
+    .accelerator-blocks {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .accelerator-block {
+        width: 100%;
+        padding: 30px 15px;
+    }
+
+    .accelerator-block h1,
+    .accelerator-block i {
+        font-size: 55px;
+    }
+
+    .accelerator-block p {
+        font-size: 14px;
+    }
+
+    .accelerator-video {
+        height: 220px;
+        gap: 20px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .accelerator-play {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .program {
+        padding-bottom: 70px;
+        text-align: center;
+    }
+
+    .program h2 {
+        font-size: 24px;
+    }
+
+    .program-title {
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+
+    .program-title span {
+        display: block;
+        margin: 0 0 8px;
+    }
+
+    .program-text p {
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .program-btn {
+        width: 100%;
+        padding: 16px 10px;
+        font-size: 13px;
     }
 }

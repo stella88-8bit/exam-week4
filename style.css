@@ -218,6 +218,135 @@ a {
     font-weight: 600;
 }
 
+.markets {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.markets h2 {
+    color: #1178b2;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.markets-nav {
+    display: flex;
+    background-color: #eaf0f4;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.markets-nav p {
+    width: 25%;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.markets-nav .markets-active {
+    background-color: #8bbddb;
+    color: white;
+    font-weight: 600;
+}
+
+.markets-content {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    background: url("./img/Vector.png") left center / 55% auto no-repeat;
+}
+
+.markets-info {
+    width: 35%;
+}
+
+.markets-info h3 {
+    font-size: 28px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.markets-info h3 span {
+    color: #07AF91;
+}
+
+.markets-info > p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 25px 0;
+}
+
+.markets-btn {
+    display: inline-block;
+    padding: 20px 35px;
+    background: linear-gradient(90deg, #69bee8, #0879b5);
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.markets-person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.markets-person img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.markets-person span {
+    color: #999;
+    font-size: 12px;
+}
+
+.markets-cards {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.markets-card {
+    padding: 40px 15px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.markets-card h3 {
+    color: #8bbddb;
+    font-size: 40px;
+}
+
+.markets-card h3 span {
+    font-size: 20px;
+}
+
+.markets-card p {
+    color: #999;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.markets-report {
+    color: white;
+    background-color: #1178b2;
+}
+
+.markets-report i {
+    font-size: 26px;
+}
+
+.markets-report p {
+    color: white;
+    font-size: 16px;
+}
+
 @media (max-width: 500px) {
     .container {
         padding: 0 50px;
@@ -392,5 +521,61 @@ a {
         width: 100%;
         padding: 16px 10px;
         font-size: 13px;
+    }
+    .markets {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .markets h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .markets-nav p {
+        font-size: 9px;
+        padding: 12px 3px;
+    }
+
+    .markets-content {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 30px;
+        background: none;
+    }
+
+    .markets-info, .markets-cards {
+        width: 100%;
+    }
+
+    .markets-info h3 {
+        font-size: 20px;
+    }
+
+    .markets-info > p {
+        font-size: 13px;
+    }
+
+    .markets-btn {
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+
+    .markets-cards {
+        gap: 10px;
+    }
+
+    .markets-card {
+        padding: 25px 8px;
+    }
+
+    .markets-card h3 {
+        font-size: 25px;
+    }
+
+    .markets-card h3 span,
+    .markets-card p {
+        font-size: 11px;
     }
 }
